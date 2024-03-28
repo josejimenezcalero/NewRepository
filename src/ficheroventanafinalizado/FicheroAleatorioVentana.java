@@ -15,9 +15,9 @@ public class FicheroAleatorioVentana {
         RandomAccessFile file;
         file = new RandomAccessFile(fichero, "rw");
         file.close();
-
+        System.out.println("This is a test");
         VentanaDepart v = new VentanaDepart(f);
-        v.setVisible(true);
+        //v.setVisible(true);
 
     }//fin main
 
